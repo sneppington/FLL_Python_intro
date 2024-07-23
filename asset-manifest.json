@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/FLL_Python_intro/static/css/main.1c50f8bf.css",
-    "main.js": "/FLL_Python_intro/static/js/main.b011bfc7.js",
+    "main.js": "/FLL_Python_intro/static/js/main.be265f20.js",
     "static/js/453.40a018a6.chunk.js": "/FLL_Python_intro/static/js/453.40a018a6.chunk.js",
     "static/media/descarga_python.png": "/FLL_Python_intro/static/media/descarga_python.984be5b3db0256f57b0f.png",
     "static/media/thonny_icon.png": "/FLL_Python_intro/static/media/thonny_icon.97ba9d7ab4818e318ecf.png",
     "static/media/thonnny_gui.png": "/FLL_Python_intro/static/media/thonnny_gui.4b671ec3a2574ca9c3be.png",
     "index.html": "/FLL_Python_intro/index.html",
     "main.1c50f8bf.css.map": "/FLL_Python_intro/static/css/main.1c50f8bf.css.map",
-    "main.b011bfc7.js.map": "/FLL_Python_intro/static/js/main.b011bfc7.js.map",
+    "main.be265f20.js.map": "/FLL_Python_intro/static/js/main.be265f20.js.map",
     "453.40a018a6.chunk.js.map": "/FLL_Python_intro/static/js/453.40a018a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c50f8bf.css",
-    "static/js/main.b011bfc7.js"
+    "static/js/main.be265f20.js"
   ]
 }
