@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color: #202022;
+	color: white;
+}
+
+ul {
+	margin-bottom: 5vw
+}
+
+li {
+	font-size: 15px
+	
+}
+
+body {
+	background-color: #f7f7f7;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+
+  @media screen and (-ms-high-contrast: active) {
+    border: 2px solid currentcolor;
+  }
+}
+
+#Nav_header {
+	position: fixed;
+	top: -4vh;
+	width: 15%;
+	height: 100%;
+	margin-top: 30px;
+	background-color: #2F2F2F;
+}
+
+.nav_header_wrapper{
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	align-items: center;
+	background-color: '#ffffff';
+	gap: 7px;
+	padding: 10px;
+	padding-top: 20px;
+	
+	width: 100%;
+	margin-left: 0.5vw;
+}
+
+
+#main {
+	position: absolute;
+	left: 15%;
+	width: 85%;
+}      
+
+.NavButton {
+	box-shadow:inset 0px 0px 4px 0px #1d1d1f;
+	background-color:#cbcbcb;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#2f2f2f;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 7px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f2f2f;
+}
+.NavButton:hover {
+	background-color:#e5e5e5;
+}
+.NavButton:active {
+	position:relative;
+	top:1px;
+}
+
+.LessonDropdownButton {
+	box-shadow:inset 0px 0px 4px 0px #1d1d1f;
+	background-color:#282829;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:11px 0px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+}
+.LessonDropdownButton:hover {
+	background-color:#333333;
+}
+.LessonDropdownButton:active {
+	position:relative;
+	top:1px;
+}
+
+.h3_button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 1.17em;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.h3_button:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+.check, .give_answers {
+    height: 50px;
+    background-color: #cbcbcb;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 4px 0px #1d1d1f;
+    color: #2f2f2f;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 1.17em;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #2f2f2f;
+    transition: transform 0.1s ease, background-color 0.1s ease; /* Add transition for smooth animation */
+}
+
+.check:hover, .give_answers:hover {
+    background-color: #e5e5e5;
+}
+
+.check:active, .give_answers:active {
+    transform: scale(0.95); /* Scale down button on active state */
+}
+
+.check:focus, .give_answers:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+.answer_field {
+	width: 200px;
+	height: 30px;
+	background-color: #303034;
+	border: 1px solid #404044;
+	border-radius: 5px;
+	color: #cbcbcb;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	padding: 10px;
+	outline: none;
+}
+
+.answer_field:focus {
+	border-color: #606064;
+}
+
+code {
+	background-color: #000000;
+	border-radius: 10px;
+	border-size: 0.5px;
+	border-color: #000000;
+}
